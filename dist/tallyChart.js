@@ -185,3 +185,5 @@ function TallyChart(data,chart_options){
         tooltip.style('opacity',0);
     });
 }
+
+export { TallyChart }
