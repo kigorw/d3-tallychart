@@ -1,4 +1,4 @@
-export const TallyChart = function(data,chart_options){
+function TallyChart(data,chart_options){
 
     var dataset = data;
     var container = chart_options.container;
