@@ -1,4 +1,5 @@
-function TallyChart(data,chart_options){
+module.exports = {
+  TallyChart: function TallyChart(data,chart_options) {
 
     var dataset = data;
     var container = chart_options.container;
@@ -185,5 +186,4 @@ function TallyChart(data,chart_options){
         tooltip.style('opacity',0);
     });
 }
-
-export { TallyChart }
+};
